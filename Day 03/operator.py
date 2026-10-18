@@ -1,4 +1,4 @@
-'''age = 26
+age = 26
 
 height = 1.62
 complex_number = 3 + 4j
@@ -50,8 +50,7 @@ python_length = str(python_length)
 print(type(python_length))
 if num % 2 == 0:
     print(num, "is an even number.")
-'''
-f'''loor_div = 7//3
+floor_div = 7//3
 print(floor_div == 2.7)
 print(type('10')==int(10))
 print(int(9.8)==10)
@@ -60,7 +59,6 @@ rate_per_hour = float(input("Enter rate per hour: "))
 weekly_earning = hours * rate_per_hour
 print("Your weekly earning is", weekly_earning)
 years = float(input("Enter number of years you have lived: "))
-print("You have lived for", years * 365 * 24 * 60 * 60 * years,2"seconds.")'''
-
+print("You have lived for", years * 365 * 24 * 60 * 60 * years,2"seconds.")
 for n in range(1, 6):
     print(n, 1, n, n**2, n**3)
