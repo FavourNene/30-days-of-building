@@ -10,6 +10,15 @@ it_companies.remove('IBM')
 print("Updated set it_companies:", it_companies)
 C = A.union(B)
 c = A.intersection(B)
-A.isdisjoint(B)
+print("Is A disjoint from B?", A.isdisjoint(B))
 D = B.union(A)
-C.symmetric_difference(D)
+
+print("Symmetric difference of C and D:", C.symmetric_difference(D))
+del A
+del B
+ages = set(age)
+print("Is the length of the list age equal to the length of the set ages?", len(age) == len(ages))
+sentence = "I am a teacher and I love to inspire and teach people."
+words = sentence.split()
+unique_words = set(words)
+print("Number of unique words in the sentence:", len(unique_words))
