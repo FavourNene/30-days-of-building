@@ -20,3 +20,7 @@ else:
 print(median)
 first_three_last_three = food_stuff_list[0:3] + food_stuff_list[-3:]
 print(first_three_last_three)
+del food_stuff_tp
+nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
+print('Iceland' in nordic_countries)
+print('Estonia' in nordic_countries)
