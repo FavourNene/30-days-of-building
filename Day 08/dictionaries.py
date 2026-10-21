@@ -13,3 +13,10 @@ student = {
     "address": "123 Main Street"
 }
 print(type(student.get("skills")))
+print(student.get("skills"))
+student["skills"].append("CSS")
+print(student.keys())
+print(student.values())
+print(student.items())
+student.pop("is_married")
+del dog
