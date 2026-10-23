@@ -1,7 +1,4 @@
 # Day 2: 30 Days of python programming
-from turtle import circle
-
-
 first_name = 'Favour'
 last_name = "Fache"
 full_name = 'Favour Fache'
