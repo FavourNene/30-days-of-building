@@ -104,3 +104,8 @@ elif skills == {'React', 'Node', 'MongoDB'}:
     print('He is a fullstack developer')
 else:
     print('unknown title')
+
+if person['is_married'] and person['country'] == 'Finland':
+    print(f'{person["first_name"]} {person["last_name"]} lives in {person["country"]}. He is married.')
+else:
+    print(f'{person["first_name"]} {person["last_name"]} lives in {person["country"]}. He is not married.')
