@@ -274,4 +274,4 @@ print(middle_countries)
 first_half = countries[:len(countries)//2]
 second_half = countries[len(countries)//2:]
 lst2 =['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
-ch, rs, us, sc = lst2
+ch, rs, us, *sc = lst2
