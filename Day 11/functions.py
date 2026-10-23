@@ -40,6 +40,9 @@ def solve_quadratic_eqn(a, b, c):
 
     if d < 0:
         return "No real roots"
+    if a ==0:
+        return "Not a quadratic equation"
+        
     
     x1 = (-b + (d**0.5)) / (2 * a)
     x2 = (-b - (d**0.5)) / (2 * a)
@@ -57,7 +60,7 @@ def reverse_list(arr):
         reversed_arr.append(arr[i])
     return reversed_arr
 
-def capitaize_list_items(lst):
+def capitalize_list_items(lst):
     caps_list =[]
     for item in lst:
         caps_list.append(item.capitalize())
