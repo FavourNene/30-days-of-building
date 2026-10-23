@@ -12,8 +12,8 @@ def add_all_num(*nums):
         total+=num
     return total
 
-def convert_celsius_to_fahrenheit(celcius):
-    fahrenheit = (celcius * 1.8) + 32
+def convert_celsius_to_fahrenheit(celscius):
+    fahrenheit = (celsius * 1.8) + 32
     return fahrenheit
 
 def check_season(month):
@@ -37,6 +37,9 @@ def calculate_slope(x1, y1, x2, y2):
 
 def solve_quadratic_eqn(a, b, c):
     d = (b ** 2) - (4 * a * c)
+
+    if d < 0:
+        return "No real roots"
     
     x1 = (-b + (d**0.5)) / (2 * a)
     x2 = (-b - (d**0.5)) / (2 * a)
