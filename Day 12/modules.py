@@ -63,15 +63,13 @@ def gen_colors(mode, count):
     return colors     
 
 def shuffle_list(items):
-    """Return a new shuffled copy of `items`. The original list is unchanged."""
     shuffled = items.copy()
     random.shuffle(shuffled)
     return shuffled
 
 import random
 
-def shuffle_list(items):
-    """Return a new shuffled copy of `items`. The original list is unchanged."""
-    shuffled = items.copy()
-    random.shuffle(shuffled)
-    return shuffled
+
+
+def unique_random_numbers():
+    return random.sample(range(10), 7)
