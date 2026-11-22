@@ -29,6 +29,4 @@ output = [' '.join(name) for sublist in names for name in sublist]
 print(output)
 slope = lambda x1, y1, x2, y2: (y2-y1)/(x2-x1)
 
-
 y_intercept = lambda x, y, m: y - (m*x)
-print(y_intercept(2, 7, 2))
